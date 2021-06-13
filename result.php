@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Result</title>
-    <style>
+      <style>
         body
         {
             height: 920px;
@@ -16,7 +16,7 @@
         {
             text-align: center;
             color:rgb(156, 79, 2);
-            font-size: 70px;
+            font-size: 60px;
             text-shadow: 2px 2px white;
         }
         a
@@ -29,11 +29,11 @@
         table
         {
             background-image: linear-gradient(red, yellow);
-            width:900px;
+            width:600px;
 
         }
         .container{
-            margin-left:43%;
+            
             font-size: 30px;
 
         }
@@ -46,7 +46,7 @@
         #a{
  			 font-weight:bold;
  			 text-shadow: 2px 2px white;
- 			 font-size:30px;
+ 			 font-size:35px;
  			 text-align:center;
  			 box-shadow: 2px 2px white;
 
@@ -54,10 +54,70 @@
 		  #b{
  			 font-weight:bold;
  			 text-shadow: 2px 2px white;
- 			 font-size:25px;
+ 			 font-size:35px;
  			 text-align:center;
  			 box-shadow: 2px 2px white;
 			}
+
+
+        @media screen and (min-device-width: 280px) and (max-device-width: 604px){
+      body
+        {
+            height: 920px;
+            background-image: linear-gradient(white,#99ff33,#00ff00);
+
+        }
+        h1
+        {
+            text-align: center;
+            color:rgb(156, 79, 2);
+            font-size: 40px;
+            text-shadow: 2px 2px white;
+        }
+        a
+        {
+            display: inline-block;
+            color:red;
+            font-size: 28px;
+            text-shadow: 2px 2px white;
+        }
+        table
+        {
+            background-image: linear-gradient(red, yellow);
+            width:280px;
+
+        }
+        .container{
+            
+            font-size: 15px;
+
+        }
+
+        }
+        select
+        {
+            width: 130px;
+        }
+        #a{
+             font-weight:bold;
+             text-shadow: 2px 2px white;
+             font-size:15px;
+             text-align:center;
+             box-shadow: 2px 2px white;
+
+            }
+          #b{
+             font-weight:bold;
+             text-shadow: 2px 2px white;
+             font-size:15px;
+             text-align:center;
+             box-shadow: 2px 2px white;
+            }
+
+        }  
+
+
+
     </style>
 </head>
 <body>
