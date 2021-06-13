@@ -8,7 +8,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <title> Sample Wipro </title>
-    <style>
+      <style>
         body
         {
             background-image: linear-gradient(#ffff99,#ff6600);
@@ -21,54 +21,41 @@
             text-shadow: 2px 2px white;
             font-size: 70px;
         }
-        p
+ 
+   
+        .bloc{
+            background-color:black; padding:15px 46px;  border-radius: 40px; color:white;
+        }
+
+
+
+        @media screen and (min-device-width: 280px) and (max-device-width: 514px){
+                 body
+        {
+            background-image: linear-gradient(#ffff99,#ff6600);
+            height: 925px;
+        }
+        h1
         {
             text-align: center;
-            color : red;
-            font-weight: 900;
+            color: black;
             text-shadow: 2px 2px white;
+            font-size: 40px;
         }
-
-        form
-        {   
-            margin-top:2%;
-            background-color:	 #88cc00;
-            padding: 30px 10px;
-            width: 450px;
-            margin-left:37%;
-            border:2px solid black;
-            box-shadow: 2px 5px white;
-            border-radius: 5px;
-        }
-        select
-        {
-            width: 150px;
-        }
-        #l
-        {
+        h2{
             font-size: 20px;
         }
-        #c
-        {
-            font-size: 30px;
-        }
-        .b{
-            padding:10px 16px;
-             width:300px;
-             
-             font-size: 50px;
-             border-radius:10px;
-        }
-        .block {
-               
-                }
-
-         .block:hover {
-            background-color: black;
-                color: white;
-                }
-    </style>
  
+ 
+        .bloc{
+            background-color:black; padding:10px 30px;  border-radius: 40px; color:white;
+        }
+
+
+        }  
+
+ 
+    </style>
 
 </head>
 <body>
