@@ -47,7 +47,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <title> Sample Wipro </title>
-    <style>
+   <style>
         body
         {
             background-image: linear-gradient(#cc6600, #ccffff);
@@ -101,10 +101,82 @@
                 border-radius: 15px;
                 }
 
-         .block:hover {
+      .block:hover {
             background-color: black;
                 color: white;
                 }
+
+         #name1{
+            height:80px;width:450px;border-radius: 8px;
+         }
+
+        @media screen and (min-device-width: 300px) and (max-device-width: 617px){
+       body
+        {
+            background-image: linear-gradient(#cc6600, #ccffff);
+            height: 925px;
+        }
+    
+        h1
+        {
+            text-align: center;
+            color:black;
+            text-shadow: 2px 2px white;
+            font-size: 40px;
+        }
+       
+        form
+        {
+            background-image: linear-gradient(#669900,#ffff66);
+            padding: 10px 10px;
+            width: 310px;
+            margin-left: 0px;
+            border:2px solid black;
+            border-radius: 10px;
+            box-shadow: 2px 2px white;
+        }
+        select
+        {
+            width: 150px;
+            
+        }
+        #l
+        {
+            font-size: 25px;
+            margin-left:7%;
+        }
+        #c
+        {
+            font-size: 35px;
+            margin-left:7%;
+        }
+        .block {
+                display: inline-block;
+                margin-top:80px;
+               
+                width:300px;
+                background-color:#32CD32;
+                color: black;
+                border: none;
+                padding:45px 12px;
+                font-size: 46px;
+                cursor: pointer;
+                text-align: center;
+                border-radius: 15px;
+                }
+
+      .block:hover {
+            background-color: black;
+                color: white;
+                }
+
+         #name1{
+            height:80px;width:280px;border-radius: 8px;
+         }
+
+        }
+
+
     </style>
    
 </head>
