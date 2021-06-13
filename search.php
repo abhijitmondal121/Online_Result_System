@@ -8,7 +8,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <title> Sample Wipro </title>
-    <style>
+  <style>
         body
         {
             background-image: linear-gradient(#ff4dff, black);
@@ -78,7 +78,170 @@
             background-color: black;
                 color: white;
                 }
+
+
+        @media screen and (min-device-width: 694px) and (max-device-width: 999px){
+                body
+        {
+            background-image: linear-gradient(#ff4dff, black);
+            height: 925px;
+        }
+        h1
+        {
+            text-align: center;
+            color: black;
+            text-shadow: 2px 2px white;
+            font-size: 60px;
+        }
+
+        select
+        {
+            width: 150px;
+        }
+        #l
+        {
+            font-size: 20px;
+        }
+        #c
+        {
+            font-size: 30px;
+        }
+        .b{
+            padding:10px 16px;
+             width:300px;
+             
+             font-size: 50px;
+             border-radius:10px;
+        }
+        .block {
+                display: inline-block;
+                margin-top:80px;
+               
+                width:200px;
+                background-color:#66cc00;
+                color: black;
+                border: none;
+                padding:55px 2px;
+                font-size: 30px;
+                cursor: pointer;
+                text-align: center;
+                border-radius: 15px;
+                }
+
+         .block:hover {
+            background-color: black;
+                color: white;
+                }
+
+
+
+        }  
+
+        @media screen and (min-device-width: 462px) and (max-device-width: 693px){
+                            body
+        {
+            background-image: linear-gradient(#ff4dff, black);
+            height: 925px;
+        }
+        h1
+        {
+            text-align: center;
+            color: black;
+            text-shadow: 2px 2px white;
+            font-size: 50px;
+        }
+
+        #l
+        {
+            font-size: 20px;
+        }
+        #c
+        {
+            font-size: 30px;
+        }
+        .b{
+            padding:10px 16px;
+             width:250px;
+             
+             font-size: 40px;
+             border-radius:10px;
+        }
+        .block {
+                display: inline-block;
+                margin-top:80px;
+               
+                width:130px;
+                background-color:#66cc00;
+                color: black;
+                border: none;
+                padding:45px 2px;
+                font-size: 20px;
+                cursor: pointer;
+                text-align: center;
+                border-radius: 15px;
+                }
+
+         .block:hover {
+            background-color: black;
+                color: white;
+                }
+
+        }
+
+        @media screen and (min-device-width: 280px) and (max-device-width: 461px){
+            {
+            background-image: linear-gradient(#ff4dff, black);
+            height: 925px;
+        }
+        h1
+        {
+            text-align: center;
+            color: black;
+            text-shadow: 2px 2px white;
+            font-size: 40px;
+        }
+
+        #l
+        {
+            font-size: 20px;
+        }
+        #c
+        {
+            font-size: 30px;
+        }
+        .b{
+            padding:10px 16px;
+             width:250px;
+             
+             font-size: 40px;
+             border-radius:10px;
+        }
+        .block {
+                display: inline-block;
+                margin-top:80px;
+               
+                width:90px;
+                background-color:#66cc00;
+                color: black;
+                border: none;
+                padding:30px 0px;
+                font-size: 17px;
+                cursor: pointer;
+                text-align: center;
+                border-radius: 15px;
+                }
+
+         .block:hover {
+            background-color: black;
+                color: white;
+                }
+
+
+        }
+
+
     </style>
+
 
 
     <?php
