@@ -11,7 +11,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <title> Sample Wipro </title>
-    <style>
+     <style>
         body
         {
             background-image: linear-gradient(#ff4dff, black);
@@ -25,31 +25,11 @@
             text-shadow: 2px 2px white;
             font-size: 70px;
         }
-        form
+         h2
         {
-            background-color:#ff751a;
-            padding: 10px 10px;
-            width: 680px;
-            margin-left:31%;
-            border:2px solid black;
-            border-radius: 10px;
-            box-shadow: 2px 2px white;
+            color:black;font-size: 40px;text-shadow: 1px 1px white;
         }
-        select
-        {
-            width: 150px;
-            
-        }
-        #l
-        {
-            font-size: 25px;
-            margin-left:7%;
-        }
-        #c
-        {
-            font-size: 35px;
-            margin-left:7%;
-        }
+ 
         .block {
                 display: inline-block;
                 margin-top:40px;
@@ -65,12 +45,55 @@
                 border-radius: 15px;
                 }
 
-         .block:hover {
+        .block:hover {
             background-color: black;
                 color: white;
                 }
+
+       @media screen and (min-device-width: 294px) and (max-device-width: 999px){
+          body
+        {
+            background-image: linear-gradient(#ff4dff, black);
+            height: 925px;
+        }
+    
+        h1
+        {
+            text-align: center;
+            color:black;
+            text-shadow: 2px 2px white;
+            font-size: 50px;
+        }
+         h2
+        {
+            color:black;font-size: 30px;text-shadow: 1px 1px white;
+        }
+ 
+        .block {
+                display: inline-block;
+                margin-top:40px;
+               
+                width:150px;
+                background-color:#00e600;
+                color: black;
+                border: none;
+                padding:35px 2px;
+                font-size: 30px;
+                cursor: pointer;
+                text-align: center;
+                border-radius: 15px;
+                }
+
+        .block:hover {
+            background-color: black;
+                color: white;
+                }
+
+
+
+        }  
+
     </style>
-   
 </head>
 <body>
 <center>
