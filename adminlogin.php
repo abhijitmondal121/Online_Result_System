@@ -88,6 +88,168 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                #c {
             font-size: 30px;
         }
+
+        @media screen and (min-device-width: 694px) and (max-device-width: 999px){
+             body
+        {
+            background-image: linear-gradient(#ff8000,#ff00ff);
+            height: 925px;
+        }
+        h1
+        {
+            text-align: center;
+            color:blue;
+            text-shadow: 2px 2px white;
+            font-size: 60px;
+        }
+        form
+        {   margin-top:3%;
+            background-image: linear-gradient(white,#00cc00);
+            padding: 20px 30px;
+            width: 350px;
+            margin-left:26%;
+            border:2px solid black;
+            border-radius: 15px;
+        }
+        select
+        {
+            width: 150px;
+        }
+
+        
+        .block {
+                display: inline-block;
+                width: 20%;
+                border: none;
+                background-color: black;
+                color: white;
+                padding:8px 2px;
+                font-size: 16px;
+                cursor: pointer;
+                text-align: center;
+                margin-left:2%;
+                border-radius: 15px;
+                }
+
+         .block:hover {
+                background-color:white;
+                color: black;
+                }
+                
+               #c {
+                font-size: 28px;
+        }
+
+        }  
+
+        @media screen and (min-device-width: 450px) and (max-device-width: 693px){
+
+        body
+        {
+            background-image: linear-gradient(#ff8000,#ff00ff);
+            height: 925px;
+        }
+        h1
+        {
+            text-align: center;
+            color:blue;
+            text-shadow: 2px 2px white;
+            font-size: 45px;
+        }
+        form
+        {   margin-top:3%;
+            background-image: linear-gradient(white,#00cc00);
+            padding: 20px 30px;
+            width: 270px;
+            margin-left:20%;
+            border:2px solid black;
+            border-radius: 15px;
+        }
+        select
+        {
+            width: 150px;
+        }
+
+        
+        .block {
+                display: inline-block;
+                width: 20%;
+                border: none;
+                background-color: black;
+                color: white;
+                padding:8px 2px;
+                font-size: 14px;
+                cursor: pointer;
+                text-align: center;
+                margin-left:2%;
+                border-radius: 15px;
+                }
+
+         .block:hover {
+                background-color:white;
+                color: black;
+                }
+                
+               #c {
+                font-size: 17px;
+        }
+
+        }
+
+        @media screen and (min-device-width: 280px) and (max-device-width: 449px){
+
+        body
+        {
+            background-image: linear-gradient(#ff8000,#ff00ff);
+            height: 925px;
+        }
+        h1
+        {
+            text-align: center;
+            color:blue;
+            text-shadow: 2px 2px white;
+            font-size: 35px;
+        }
+        form
+        {   margin-top:3%;
+            background-image: linear-gradient(white,#00cc00);
+            padding: 20px 30px;
+            width: 220px;
+            margin-left:13%;
+            border:2px solid black;
+            border-radius: 15px;
+        }
+        select
+        {
+            width: 150px;
+        }
+
+        
+        .block {
+                display: inline-block;
+                width: 20%;
+                border: none;
+                background-color: black;
+                color: white;
+                padding:8px 2px;
+                font-size: 14px;
+                cursor: pointer;
+                text-align: center;
+                margin-left:2%;
+                border-radius: 15px;
+                }
+
+         .block:hover {
+                background-color:white;
+                color: black;
+                }
+                
+               #c {
+                font-size: 14px;
+        }
+
+        }
+
     </style>
 </head>
 <body>
