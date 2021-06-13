@@ -50,6 +50,90 @@
             font-size: 35px;
             margin-left:7%;
         }
+
+       @media screen and (min-device-width: 694px) and (max-device-width: 999px){
+     body
+        {
+            background-image: linear-gradient(#ffffb3,#ff6600);
+            height: 925px;
+        }
+    
+        h1
+        {
+            text-align: center;
+            color:black;
+            text-shadow: 2px 2px white;
+            font-size: 60px;
+        }
+         h2{
+            font-size:35px;
+        }
+        form
+        {   background-image: linear-gradient(#669900,#ffff66);
+          
+            padding: 10px 10px;
+            width: 460px;
+            margin-left:23%;
+            border:2px solid black;
+            border-radius: 10px;
+            box-shadow: 2px 2px white;
+        }
+        #l
+        {
+            font-size: 20px;
+            margin-left:3%;
+        }
+        #c
+        {
+            font-size: 30px;
+            margin-left:7%;
+        }
+
+
+
+        }  
+
+        @media screen and (min-device-width: 300px) and (max-device-width: 693px){
+                 body
+        {
+            background-image: linear-gradient(#ffffb3,#ff6600);
+            height: 925px;
+        }
+    
+        h1
+        {
+            text-align: center;
+            color:black;
+            text-shadow: 2px 2px white;
+            font-size: 40px;
+        }
+        h2{
+            font-size:32px;
+        }
+        form
+        {   background-image: linear-gradient(#669900,#ffff66);
+          
+            padding: 10px 10px;
+            width: 290px;
+            margin-left:6%;
+            border:2px solid black;
+            border-radius: 10px;
+            box-shadow: 2px 2px white;
+        }
+        #l
+        {
+            font-size: 16px;
+            margin-left:3%;
+        }
+        #c
+        {
+            font-size: 23px;
+            margin-left:7%;
+        }
+
+        }
+
+
     </style>
     <?php
 
