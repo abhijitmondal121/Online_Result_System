@@ -21,44 +21,10 @@
             text-shadow: 2px 2px white;
             font-size: 70px;
         }
-        p
-        {
-            text-align: center;
-            color : red;
-            font-weight: 900;
-            text-shadow: 2px 2px white;
+        h2{
+            color:black;font-size: 28px;
         }
-
-        form
-        {   
-            margin-top:2%;
-            background-color:	 #88cc00;
-            padding: 30px 10px;
-            width: 450px;
-            margin-left:37%;
-            border:2px solid black;
-            box-shadow: 2px 5px white;
-            border-radius: 5px;
-        }
-        select
-        {
-            width: 150px;
-        }
-        #l
-        {
-            font-size: 20px;
-        }
-        #c
-        {
-            font-size: 30px;
-        }
-        .b{
-            padding:10px 16px;
-             width:300px;
-             
-             font-size: 50px;
-             border-radius:10px;
-        }
+        
         .block {
                 display: inline-block;
                 margin-top:80px;
@@ -78,8 +44,138 @@
             background-color: black;
                 color: white;
                 }
-    </style>
 
+        .bloc{
+            background-color:black; padding:20px 56px;  border-radius: 40px; color:white;
+        }
+
+        @media screen and (min-device-width: 694px) and (max-device-width: 999px){
+                    body
+        {
+            background-image: linear-gradient(#cc6600, #ccffff);
+            height: 925px;
+        }
+        h1
+        {
+            text-align: center;
+            color:red;
+            text-shadow: 2px 2px white;
+            font-size: 60px;
+        }
+        h2{
+            color:black;font-size: 24px;
+        }
+        
+        .block {
+                display: inline-block;
+                margin-top:80px;
+               
+                width:300px;
+                background-color:#32CD32;
+                color: black;
+                border: none;
+                padding:55px 2px;
+                font-size: 46px;
+                cursor: pointer;
+                text-align: center;
+                border-radius: 15px;
+                }
+
+         .block:hover {
+            background-color: black;
+                color: white;
+                }
+         .bloc{
+            background-color:black; padding:18px 46px;  border-radius: 40px; color:white;
+         }
+
+        }  
+
+        @media screen and (min-device-width: 450px) and (max-device-width: 693px){
+         body
+        {
+            background-image: linear-gradient(#cc6600, #ccffff);
+            height: 925px;
+        }
+        h1
+        {
+            text-align: center;
+            color:red;
+            text-shadow: 2px 2px white;
+            font-size: 50px;
+        }
+        h2{
+            color:black;font-size: 20px;
+        }
+        
+        .block {
+                display: inline-block;
+                margin-top:80px;
+               
+                width:300px;
+                background-color:#32CD32;
+                color: black;
+                border: none;
+                padding:55px 2px;
+                font-size: 46px;
+                cursor: pointer;
+                text-align: center;
+                border-radius: 15px;
+                }
+
+         .block:hover {
+            background-color: black;
+                color: white;
+                }
+
+          .bloc{
+            background-color:black; padding:14px 40px;  border-radius: 40px; color:white;
+         }
+
+        }
+
+        @media screen and (min-device-width: 280px) and (max-device-width: 449px){
+                     body
+        {
+            background-image: linear-gradient(#cc6600, #ccffff);
+            height: 925px;
+        }
+        h1
+        {
+            text-align: center;
+            color:red;
+            text-shadow: 2px 2px white;
+            font-size: 40px;
+        }
+        h2{
+            color:black;font-size: 16px;
+        }
+        
+        .block {
+                display: inline-block;
+                margin-top:80px;
+               
+                width:200px;
+                background-color:#32CD32;
+                color: black;
+                border: none;
+                padding:55px 2px;
+                font-size: 36px;
+                cursor: pointer;
+                text-align: center;
+                border-radius: 15px;
+                }
+
+         .block:hover {
+            background-color: black;
+                color: white;
+                }
+         .bloc{
+            background-color:black; padding:10px 27px;  border-radius: 40px; color:white;
+         }
+
+        }
+    </style>
 
 
 </head>
