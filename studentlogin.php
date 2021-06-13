@@ -93,6 +93,183 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 background-color:white;
                 color: black;
                 }
+
+
+        @media screen and (min-device-width: 694px) and (max-device-width: 999px){
+             body
+        {
+            background-image: linear-gradient( #ffffcc,#00ff00);
+            height: 925px;
+        }
+        h1
+        {
+            text-align: center;
+            color:blue;
+            text-shadow: 2px 2px white;
+            font-size: 60px;
+        }
+        form
+        {   margin-top:5%;
+            background-color:#994d00;
+            padding: 20px 10px;
+            width: 350px;
+            margin-left:25%;
+            border:5px solid  black;
+            border-radius: 15px;
+        }
+        select
+        {
+            width: 150px;
+        }
+        
+        .form-group{
+            font-weight:bold;
+            margin-left:5%;
+             font-size:27px;
+             
+             
+        }
+        
+        .block {
+                display:inline-block;
+                width: 20%;
+                border: none;
+                background-color: black;
+                color: white;
+                padding:8px 2px;
+                font-size: 16px;
+                cursor: pointer;
+                text-align: center;
+                margin-left:2%;
+                border-radius: 15px;
+                }
+
+         .block:hover {
+                background-color:white;
+                color: black;
+                }
+
+
+
+        }  
+
+        @media screen and (min-device-width: 450px) and (max-device-width: 693px){
+                         body
+        {
+            background-image: linear-gradient( #ffffcc,#00ff00);
+            height: 925px;
+        }
+        h1
+        {
+            text-align: center;
+            color:blue;
+            text-shadow: 2px 2px white;
+            font-size: 50px;
+        }
+        form
+        {   margin-top:5%;
+            background-color:#994d00;
+            padding: 20px 10px;
+            width: 280px;
+            margin-left:20%;
+            border:5px solid  black;
+            border-radius: 15px;
+        }
+        select
+        {
+            width: 150px;
+        }
+        
+        .form-group{
+            font-weight:bold;
+            margin-left:5%;
+             font-size:24px;
+             
+             
+        }
+        
+        .block {
+                display:inline-block;
+                width: 20%;
+                border: none;
+                background-color: black;
+                color: white;
+                padding:8px 2px;
+                font-size: 14px;
+                cursor: pointer;
+                text-align: center;
+                margin-left:2%;
+                border-radius: 15px;
+                }
+
+         .block:hover {
+                background-color:white;
+                color: black;
+                }
+        .l{
+            font-size: 18px;
+        }
+
+        }
+
+        @media screen and (min-device-width: 280px) and (max-device-width: 449px){
+                                     body
+        {
+            background-image: linear-gradient( #ffffcc,#00ff00);
+            height: 925px;
+        }
+        h1
+        {
+            text-align: center;
+            color:blue;
+            text-shadow: 2px 2px white;
+            font-size: 40px;
+        }
+        form
+        {   margin-top:5%;
+            background-color:#994d00;
+            padding: 20px 10px;
+            width: 250px;
+            margin-left:10%;
+            border:5px solid  black;
+            border-radius: 15px;
+        }
+        select
+        {
+            width: 150px;
+        }
+        
+        .form-group{
+            font-weight:bold;
+            margin-left:5%;
+             font-size:24px;
+             
+             
+        }
+        
+        .block {
+                display:inline-block;
+                width: 20%;
+                border: none;
+                background-color: black;
+                color: white;
+                padding:8px 2px;
+                font-size: 14px;
+                cursor: pointer;
+                text-align: center;
+                margin-left:2%;
+                border-radius: 15px;
+                }
+
+         .block:hover {
+                background-color:white;
+                color: black;
+                }
+        .l{
+            font-size: 16px;
+        }
+
+        }
     </style>
 </head>
 <body>
