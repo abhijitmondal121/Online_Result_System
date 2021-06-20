@@ -16,14 +16,38 @@ Video link : https://bit.ly/3pEn2wx
 # Marks uploading page (index.php)
 <img src = "demo/Demo1.png" alt = "no">
 
-# Result searching page (search.php)
-<img src = "demo/demo 2.png" alt = "no">
+# Marks uploading page (adminlogin.php)
+<img src = "demo/Demo2.png" alt = "no">
 
-# Output page (result.php)
-<img src = "demo/demo 3.png" alt = "no">
+# Marks uploading page (admin_edit.php)
+<img src = "demo/Demo3.png" alt = "no">
 
-# Database View (umarks.sql)
-<img src = "demo/demo 4.png" alt = "no">
+# Marks uploading page (student_marks.php)
+<img src = "demo/Demo4.png" alt = "no">
 
-<strong> <p> Project Develped By : Soujatya Bhattacharya </p> </strong>
+# Marks uploading page (admin_notice.php)
+<img src = "demo/Demo5.png" alt = "no">
+
+# Marks uploading page (studentlogin.php)
+<img src = "demo/Demo6.png" alt = "no">
+
+# Marks uploading page (search.php)
+<img src = "demo/Demo7.png" alt = "no">
+
+# Marks uploading page (info.php)
+<img src = "demo/Demo8.png" alt = "no">
+
+# Marks uploading page (notice.php)
+<img src = "demo/Demo9.png" alt = "no">
+
+# Marks uploading page (result.php)
+<img src = "demo/Demo10.png" alt = "no">
+
+
+
+
+
+
+
+<strong> <p> Project Develped By : Soujatya Bhattacharya,Abhijit Mondal </p> </strong>
 
