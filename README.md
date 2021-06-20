@@ -14,7 +14,7 @@ Video link : https://bit.ly/3pEn2wx
  </ul>
   
 # Marks uploading page (index.php)
-<img src = "demo/Demo 1.png" alt = "no">
+<img src = "demo/Demo1.png" alt = "no">
 
 # Result searching page (search.php)
 <img src = "demo/demo 2.png" alt = "no">
