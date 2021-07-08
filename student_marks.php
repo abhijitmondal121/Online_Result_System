@@ -201,15 +201,15 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] = true){
         <div>
         <caption> <strong  id="c"> <u> Basic Info : </u> </strong></caption>
         <br> <br>
-            <label for = "roll" id="l"> Roll :  </label><input type="text" id="fname" name="roll" size="60">
+            <label for = "roll" id="l"> Roll :  </label><input type="text" id="fname" name="roll" size="30">
         </div>
         <br>
         <div>
-            <label for = "name" id="l"> Name :  </label> <input type="text" id="fname" name="name" size="58">
+            <label for = "name" id="l"> Name :  </label> <input type="text" id="fname" name="name" size="30">
         </div>
         <div>
             <br>
-            <label for = "class" id="l"> Class:  </label>  <input type="text" id="fname" name="class" size="60">
+            <label for = "class" id="l"> Class:  </label>  <input type="text" id="fname" name="class" size="30">
             
           <!--   <select name = "class">
                 <option readonly></option>
@@ -226,9 +226,9 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] = true){
             <label for = "name" id="l"> Science :  </label> <input type = "number" name = "sci" max = "100" min = "0" required>
         <center>
             <br><br>
-                 <button type = "submit" style = "background-color:#32CD32; padding:10px 6px; width:100px; border-radius: 10px;font-size: 17px; " name = "submit"> Submit </button> 
-                 <button type = "reset" style = "background-color:red;padding:10px 6px; width:100px; border-radius: 10px;  margin-left:2%;font-size: 17px;" name = "reset"> Reset </button>
-                 <a href = "admin_edit.php" style = "color:black;font-size: 20px;margin-left:2%;margin-right:2%; background-color:#32CD32;padding:9px 30px;border-radius: 10px;border: 1px solid black; " >Back </a>     
+                 <button type = "submit" style = "background-color:#32CD32; padding:8px 20px;  border-radius: 10px;font-size: 17px; " name = "submit"> Submit </button> 
+                 <button type = "reset" style = "background-color:red;padding:8px 20px; border-radius: 10px;  margin-left:2%;font-size: 17px;" name = "reset"> Reset </button>
+                 <a href = "admin_edit.php" style = "color:black;font-size: 17px;margin-left:2%;margin-right:2%;background-color:#32CD32;padding:8px 20px;border-radius: 10px;border: 1px solid black; " >Back </a>     
                  
       </center>
      

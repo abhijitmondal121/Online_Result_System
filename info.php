@@ -8,7 +8,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <title> Sample Wipro </title>
-      <style>
+    <style>
         body
         {
             background-image: linear-gradient(#ffff99,#ff6600);
@@ -56,6 +56,7 @@
 
  
     </style>
+ 
 
 </head>
 <body>
@@ -72,7 +73,7 @@
 }
 ?>
 <br><br><br>
-<a class="bloc" href="/Online_Result_System/search.php" style = "background-color:black; padding:20px 56px;  border-radius: 40px; color:white;" >Back</a>
+<a class="bloc" href="/Online_Result_System/search.php"  >Back</a>
 </center>
 
 </body>

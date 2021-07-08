@@ -178,6 +178,7 @@
     </style>
 
 
+
 </head>
 <body>
 <center>
@@ -187,37 +188,24 @@
 
 <br>
 <center>
+
 <?php
 // Connecting to the Database
 include 'include.php';
-// Die if connection was not successful
-//if (!$con){
- //   die("Sorry we failed to connect: ". mysqli_connect_error());
-//}
-//else{
-  //  echo "Connection was successful<br>";
-//}
 
 $sql = "SELECT * FROM `notice`";
 $result = mysqli_query($con, $sql);
-
-// Find the number of records returned
 $num = mysqli_num_rows($result);
-// Display the rows returned by the sql query
 if($num> 0){
     while($row = mysqli_fetch_assoc($result)){
-        echo '<h2  style = "color:black;font-size: 28px;">' .  "NOTICE :  ". $row['desc'].'</h2>' ;
-
-       // echo "<br>";
+        echo '<h2  >' .  "NOTICE :  ". $row['desc'].'</h2>' ;
     }
-
-
 }
 ?>
 <br><br><br><br>
 
 
-<a class="bloc" href="/Online_Result_System/search.php" style = "background-color:black; padding:20px 56px;  border-radius: 40px; color:white;" >Back</a>
+<a class="bloc" href="/Online_Result_System/search.php"  >Back</a>
   
 </center>
 

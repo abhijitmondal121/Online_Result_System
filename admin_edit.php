@@ -11,7 +11,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <title> Sample Wipro </title>
-     <style>
+    <style>
         body
         {
             background-image: linear-gradient(#ff4dff, black);
@@ -94,6 +94,7 @@
         }  
 
     </style>
+   
 </head>
 <body>
 <center>
@@ -104,19 +105,19 @@
 <?php
 session_start();
 if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] = true){
-    echo '<h2 style = "color:black;font-size: 40px;text-shadow: 1px 1px white;" >welcome :'.' '. $_SESSION['username'].'</h2>';
+    echo '<h2  >welcome :'.' '. $_SESSION['username'].'</h2>';
 }
 ?>
 
-  <a class="block" href="/Online_Result_System/student_marks.php" >Student-Marks</a>
+  <a class="block" href="/Online_Result_System/student_marks.php" >Marks</a>
   <a class="block" href="/Online_Result_System/admin_notice.php" style = "margin-left:3%;"  >Notice</a>
  
 
   <br><br><br><br><br>
-  <a href = "index.php" style = "color: #ffff99;font-weight:bold;font-size: 30px; " >Home </a> 
-  <a href = "adminlogin.php" style = "color: white;font-weight:bold;font-size: 30px;margin-left:3%; " >Admin-login </a>  
+  <a href = "index.php" style = "color: #ffff99;font-weight:bold;font-size: 26px; " >Home </a> 
+  <a href = "adminlogin.php" style = "color: white;font-weight:bold;font-size: 26px;margin-left:3%; " >Admin-login </a>  
   
-  <a href = "adminlogin.php" style = "color: #ffff99;font-weight:bold;font-size: 30px;margin-left:3%;margin-right:2%  " >Back </a>  
+  <a href = "adminlogin.php" style = "color: #ffff99;font-weight:bold;font-size: 26px;margin-left:3%;margin-right:2%  " >Back </a>  
    
   
   

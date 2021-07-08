@@ -298,19 +298,19 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 </center>
     <h1> Anybody Public High School  </h1>
     <br>
-    <div class="container my-4">
+    <div class="container my-2">
      <form action="/Online_Result_System/studentlogin.php" method="POST">
      <div class="form-group">
-            <label for="roll">Roll :</label>
-            <input type="text" class="form-control" id="roll" name="roll" size="40" aria-describedby="emailHelp">
+            <label for="roll" class="l">Roll :</label>
+            <input type="text" class="form-control" id="roll" name="roll" size="29" aria-describedby="emailHelp">
          </div><br>
         <div class="form-group">
-            <label for="name">Username :</label>
+            <label for="name" class="l">Username :</label>
             <input type="text" class="form-control" id="name" name="name"size="29" aria-describedby="emailHelp">
          </div><br>
         <div class="form-group">
-            <label for="class">Class :</label>
-            <input type="password" class="form-control" id="class" size="38" name="class">
+            <label for="class" class="l">Class :</label>
+            <input type="password" class="form-control" id="class" size="29" name="class">
         </div>
        <br>
          <br>

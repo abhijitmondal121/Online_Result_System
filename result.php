@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Result</title>
-      <style>
+    <title> Sample Wipro </title>
+    <style>
         body
         {
             height: 920px;
@@ -151,7 +151,7 @@ $query = "SELECT * FROM umarks WHERE roll = '$roll' AND class = '$class'";
 $result = mysqli_query($con,$query);
 $count = mysqli_num_rows($result);
 ?>
-<table border = "2" cellspacing = "3" cellpadding = "3" align = "center" width = "500px" height = "100px" bgcolor = "cyan" bordercolor="red">
+<table border = "2" cellspacing = "3" cellpadding = "3" align = "center" width = "300px" height = "100px" bgcolor = "cyan" bordercolor="red">
 <tr>
         <th id="a"> Bengali </th> <th id="a"> English</th> <th id="a"> Science </th> <th id="a"> Total </th> <th id="a"> Avg </th> <th id="a"> Grade </th>
 </tr>
@@ -163,6 +163,7 @@ if($count > 0)
     $avg = $sum / 3;
 ?>
 <b>
+<center>
 <div class="container">
 <?php echo "Name : ". $row['name']?>
 <br>
@@ -170,6 +171,7 @@ if($count > 0)
 <br>
 <?php echo "Class : ". $row['class']?>
 </div>
+</center>
 </b><br>
 
 
@@ -193,9 +195,9 @@ mysqli_close($con);
 <br><br><br>
 <!--for new search-->
 <center>
-<a href = "studentlogin.php" style = "color:black;font-weight:bold;font-size: 30px;margin-right:2% ">Search New </a>
-<a href = "index.php" style = "color:black;font-weight:bold;font-size: 30px; margin-left:2%;" >Home </a> 
-<a href = "search.php" style = "color:black;font-weight:bold;font-size: 30px;margin-left:4%;margin-right:2%  " >Back </a> 
+<a href = "studentlogin.php" style = "color:black;font-weight:bold;font-size: 24px;margin-right:2% ">Search New </a>
+<a href = "index.php" style = "color:black;font-weight:bold;font-size: 24px; margin-left:2%;" >Home </a> 
+<a href = "search.php" style = "color:black;font-weight:bold;font-size: 24px;margin-left:4%;margin-right:2%  " >Back </a> 
  </center>    
 
 </body>

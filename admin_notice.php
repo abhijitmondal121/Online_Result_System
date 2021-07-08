@@ -47,7 +47,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <title> Sample Wipro </title>
-   <style>
+    <style>
         body
         {
             background-image: linear-gradient(#cc6600, #ccffff);
@@ -200,12 +200,12 @@ if(isset($_SESSION['loggedin']) && $_SESSION['loggedin'] = true){
      <form action="/Online_Result_System/admin_notice.php" method="POST">
 
        
-            <label for="name" style = "font-size:30px;margin-right:2%;">Post a Notice :</label>
-            <input type="text" class="form-control" id="name" name="name"size="50" style = " height:80px;width:450px;border-radius: 8px;" aria-describedby="emailHelp">
+            <label for="name" style = "font-size:27px;margin-right:2%;">Post a Notice :</label>
+            <input type="text" class="form-control" id="name1" name="name"size="50"  aria-describedby="emailHelp">
         
          <br><br>
-        <button type="submit" class="bloc"style = " background-color:#32CD32; padding:10px 17px;border-radius: 10px;font-size: 20px;">Submit</button>
-        <a href = "admin_edit.php" style = "color:black;font-weight:bold;font-size: 20px;margin-left:2%;margin-right:2%; background-color:red;padding:11px 30px;border-radius: 10px;border: 1px solid black; " >Back </a>
+        <button type="submit" class="bloc"style = " background-color:#32CD32; padding:7px 15px;border-radius: 10px;font-size: 17px;">Submit</button>
+        <a href = "admin_edit.php" style = "color:black;font-weight:bold;font-size: 17px;margin-left:2%;margin-right:2%; background-color:red;padding:7px 25px;border-radius: 10px;border: 1px solid black; " >Back </a>
   
      </form>
     </div>

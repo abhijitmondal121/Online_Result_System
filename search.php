@@ -8,7 +8,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <title> Sample Wipro </title>
-  <style>
+    <style>
         body
         {
             background-image: linear-gradient(#ff4dff, black);
@@ -243,7 +243,6 @@
     </style>
 
 
-
     <?php
         if (isset($_REQUEST['submit']))
         {
@@ -268,9 +267,9 @@
   <a class="block" href="/Online_Result_System/result.php" style = "margin-left:3%;"  >Result</a>
 
   <br><br><br><br><br>
-  <a href = "index.php" style = "color:red;font-weight:bold;font-size: 30px; " >Home </a> 
-  <a href = "studentlogin.php" style = "color:red;font-weight:bold;font-size: 30px; margin-left:3%;" >student-login </a>   
-  <a href = "studentlogin.php" style = "color:red;font-weight:bold;font-size: 30px;margin-left:3%;margin-right:2%  " >Back </a>  
+  <a href = "index.php" style = "color:red;font-weight:bold;font-size: 25px; " >Home </a> 
+  <a href = "studentlogin.php" style = "color:red;font-weight:bold;font-size: 25px; margin-left:3%;" >student-login </a>   
+  <a href = "studentlogin.php" style = "color:red;font-weight:bold;font-size: 25px;margin-left:3%;margin-right:2%  " >Back </a>  
    
   
   
