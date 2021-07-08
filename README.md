@@ -28,6 +28,12 @@ Video link : https://bit.ly/3pEn2wx
 <img src = "demo/Demo6.png" alt = "no">
 # Marks uploading page (index.php)
 <img src = "demo/Demo7.png" alt = "no">
+# Marks uploading page (index.php)
+<img src = "demo/Demo8.png" alt = "no">
+# Marks uploading page (index.php)
+<img src = "demo/Demo9.png" alt = "no">
+# Marks uploading page (index.php)
+<img src = "demo/Demo10.png" alt = "no">
 
 
 <strong> <p> Project Develped By : Soujatya Bhattacharya </p> </strong>
